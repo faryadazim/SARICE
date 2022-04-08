@@ -1,0 +1,17 @@
+.progress {
+    height: 30.10px !important;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #292b2c !important;
+}
+
+.iconForDocs :hover {
+    color: black;
+}
+
+.btn-outline-dark-custom:hover {
+    color: black;
+    background-color: white !important;
+}

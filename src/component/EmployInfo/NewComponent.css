@@ -1,0 +1,12 @@
+.modal-dialog {
+    max-width: 50vw !important;
+    margin: 1.75rem auto !important;
+}
+
+.modal-body {
+    padding: 0 !important;
+}
+
+.marginForDeleteButtonInModel {
+    margin-top: 1.2px;
+}

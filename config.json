@@ -1,0 +1,7 @@
+{
+    "device_config_id": 1,
+    "device_ip": "192.168.0.201",
+    "port": "4370",
+    "machine_no": "1",
+    "time_interval_min": "240"
+  }

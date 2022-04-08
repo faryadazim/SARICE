@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu&display=swap');
+
+.react-date-picker__wrapper {
+
+    border: 0.4px solid rgb(240, 240, 240);
+    border-radius: 3px;
+    box-shadow: 1px 1px rgb(211, 211, 211);
+}
+
+
+
+.css-1r4vtzz {
+    border: none !important;
+    /* background-color: red !important; */
+}
+
+
+.react-date-picker {
+    border: none !important;
+}
+
+.react-date-picker__wrapper {
+
+    border: none !important;
+}
+
+.print-button {
+    width: 120px;
+}
+
+
+.employInfoPrint {
+    display: none;
+}
+
+@media print {
+    .employInfoPrint {
+        display: block;
+    }
+
+    .testingColor {
+        background-color: blue !important;
+    }
+}
+
+.tbody tr:nth-of-type(odd) {
+    background-color: transparent !important;
+}
+
+.colorOfRowIn {
+    background-color: green !important;
+}
+
+.colorOfRowOut {
+    background-color: red !important;
+}
+
+.sariceHeading {
+    font-family: 'Anton', sans-serif;
+    ;
+}
+
+
+.noDataAvailableClass {
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 13px;
+    text-align: center;
+}
+
+.tableResponsiveNesAttendence {
+
+    height: 356px !important;
+    overflow: auto;
+}
+
+@media print {
+
+    .tableResponsiveNesAttendence {
+        height: 100% !important;
+    }
+}

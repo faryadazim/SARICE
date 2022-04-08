@@ -1,0 +1,135 @@
+.editsheet-button {
+  display: inline-block !important;
+  padding: 2px 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #343a40;
+  background-color: transparent;
+}
+
+/* check box  */
+
+.container {
+  text-align: center;
+}
+.toggle-switch {
+  position: relative;
+  width: 67px;
+  display: inline-block;
+  text-align: left;
+  top: 4px;
+}
+.checkbox {
+  display: none;
+}
+.label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0 solid #343a40;
+  border-radius: 20px;
+}
+.inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.inner:before,
+.inner:after {
+  float: left;
+  width: 50%;
+  height: 25px;
+  padding: 0;
+  line-height: 22px;
+  color: #fff;
+  box-sizing: border-box;
+}
+.inner:before {
+  content: "True";
+  padding-left: 12px;
+
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #343a40;
+  color: #fff;
+}
+.inner:after {
+  content: "False";
+  padding-right: 10px;
+  background-color: #343a40;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: right;
+}
+.switch {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  margin-top: 7px;
+  margin-right: 8px;
+  bottom: 0;
+  right: 40px;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.checkbox:checked + .label .inner {
+  margin-left: 0;
+}
+.checkbox:checked + .label .switch {
+  right: 0px;
+}
+
+.card-body-remove-padding {
+  padding: 0 !important;
+}
+
+.tableHeadSr {
+  width: 4% !important;
+}
+.tableHeadName {
+  width: 45% !important;
+}
+.holidayWidth {
+  width: 29px !important;
+}
+
+.tableResponsiveNes {
+  width: 118%;
+  height: 378px;
+  overflow: auto;
+}
+
+@media print {
+  .tableResponsiveNes {
+    width: auto;
+    height: auto;
+  }
+  .noInfoInPrint {
+    display: none !important;
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 11px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  /* -webkit-border-radius: 10px; */
+  border-radius: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+  /* -webkit-border-radius: 10px;
+  border-radius: 10px; */
+  background: #acacac;
+}

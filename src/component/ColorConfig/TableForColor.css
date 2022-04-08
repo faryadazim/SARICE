@@ -1,0 +1,42 @@
+.btn i {
+  margin-right: 5px
+}
+
+.highlight-button {
+  border: 2px solid #343A40;
+  display: inline-block;
+  padding: 8px 20px 9px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #343A40;
+  background-color: transparent
+}
+
+.highlight-button:hover {
+  background-color: #343A40;
+  border: 2px solid #343A40;
+  color: #fff
+}
+
+.highlight-button i {
+  color: #343A40
+}
+
+.highlight-button:hover i {
+  color: #fff
+}
+
+.form-control-active {
+  border: none !important;
+
+}
+
+.form-control {
+  /* border-color: #343A40 !important; */
+  background-color: #f8f9fa !important;
+
+}
+
+.w-15 {
+  width: 150px !important;
+}
